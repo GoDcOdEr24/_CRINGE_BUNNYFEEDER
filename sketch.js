@@ -62,7 +62,7 @@ function preload()
     if (isMobile) {
     canw=displayWidth;
     canh=displayHeight
-    createCanvas(displayWidth,displayHeight)   
+    createCanvas(displayWidth+80,displayHeight)   
     }else{
       canw=windowWidth;
       canh=windowHeight
